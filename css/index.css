@@ -1,25 +1,12 @@
-li {
-    list-style-type: none;
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.item{
+    border: 2px solid black;
+    background-color: rgb(129, 197, 20);
     text-align: center;
-    background-color: rgb(123, 198, 199, 0.8);
-    height: 30px;
-    flex-basis: 100%;
-    align-items: baseline;
-}
-
-li a {
-    font-family: sans-serif;
     color: black;
-    padding: 8px;
-    width: 100%;
-    text-decoration: none;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0%;
-    gap: 5px;
-    flex-direction: column;
-    width: max-content;
+    padding: 10px;
 }
