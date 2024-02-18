@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: cadetblue;
 }
 
 .producto-container {
@@ -19,12 +20,4 @@ body {
     border-radius: 5px;
     margin-bottom: 15px;
     height: 50%;
-}
-
-.producto h2 {
-    margin-bottom: 10px;
-}
-
-.producto p {
-    margin-bottom: 15px;
 }
