@@ -20,22 +20,26 @@
                 <div class="item"><img src="/imagenes/email.png" width="30" height="25"><a
                                 href="mailto:adriancalaroldan207@gmail.com">Email</a></div>
         </div>
-        <div class="registro">
-        <h2>REGISTRO</h2>
-
-        <p>Username</p>
-        <input type="text" id="identificador" size="tamaño" name="nombre" value="texto por defecto" />
-                <br>
-        <p>Email</p>
-        <input type="text" id="email" name="email" size="50" value="usuario@dominio.com" />
-                <br>
-        <p>Pasworrd</p>
-        <input type="password" id="identificador" size="tamaño" name="password" value="password" />
-                <br>
-        <p>Confirm Pasworrd</p>
-        <input type="password" id="identificador" size="tamaño" name="password" value="password" />   
-                <br><br>
-                <input type="submit" value="Enviar"/>    
-        </div>
+        <div class="Registro">
+                <form method="POST" id="formulario" name="formulario" role="form">
+                    <h2>Formulario</h2>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" class="form-control" id="contraseña" name="contraseña" required>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="correo" name="correo" required>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
 </body>
 </html>
