@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: cadetblue;
+}
+
+.producto-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.producto img {
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 50%;
+}
