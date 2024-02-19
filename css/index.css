@@ -19,8 +19,11 @@
 }
 
 body {
-    background-image: url('/imagenes/lebron-galan.jpg');
+    background-image: url('/imagenes/108760_bolas_bote_bullpadel_train_465464_1000x1000_3_9a66.webp');
+    width: auto;
+    height: auto;
     font-family: Arial, sans-serif;
+    background-size: auto;
 }
 
 .registro {
