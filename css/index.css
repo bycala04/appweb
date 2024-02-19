@@ -19,11 +19,12 @@
 }
 
 body {
-    background-image: url('/imagenes/108760_bolas_bote_bullpadel_train_465464_1000x1000_3_9a66.webp');
-    width: auto;
-    height: auto;
-    font-family: Arial, sans-serif;
-    background-size: auto;
+    padding: 25px;
+    background: url("/imagenes/lebron-galan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
 }
 
 .registro {
@@ -34,7 +35,5 @@ body {
     color: #555;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-.label{
-    color: beige;
+
 }
