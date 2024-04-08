@@ -21,7 +21,7 @@ img{
 .container1{
     display: flex;
     flex-wrap: wrap; 
-    background-color: #BF36FF;
+    background-color: #D9D9D9;
     justify-content: space-between;
     margin-top: 50em;
 }
