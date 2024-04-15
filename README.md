@@ -1,0 +1,1 @@
+This is our integrated project that is based on an online sports store specifically for paddle, which is responsible for selling products related to paddle and we have also created our own social networks, in which we exclusively publish our product restocks.
