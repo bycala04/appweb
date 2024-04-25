@@ -18,6 +18,7 @@ img{
     flex-wrap: wrap; 
     background-color: #BF36FF;
     justify-content: space-between;
+    position: relative;
 }
 .container1{
     display: flex;
@@ -30,4 +31,10 @@ img{
     text-align: center;
     margin-top: 1.25em;
     font-weight: bold;
+}
+.advertisement{
+    display: flex;
+    border: black 1px solid;
+    justify-content: left;
+    left: 100%;
 }
