@@ -22,5 +22,5 @@ module.exports = {
     getproducts,
     getregister,
     getlist,
-    specificcontent
+    getspecificcontent
 };
