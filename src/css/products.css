@@ -1,0 +1,28 @@
+body{
+    background-image:url("/src/img/a94efe02-bcf6-4524-83df-046c556badbe_alta-libre-aspect-ratio_default_0.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 0%;
+    margin: 0%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: #BF36FF;
+    justify-content: space-between;
+    position: relative;
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: #D9D9D9;
+    justify-content: space-between;
+    margin-top: 50em;
+}
+h1,h2,a{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.product{
+    
+}
