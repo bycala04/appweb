@@ -1,9 +1,10 @@
 body{
-    background-image:url("/src/img/");
+    background-image:url("/img/VDEQSUM72RCG7HPIBZ44326E5Y.png");
     background-size: cover;
     background-repeat:no-repeat;
     padding: 0%;
     margin: 0%;
+    background-attachment: fixed;
 }
 .container {
     display: flex;
