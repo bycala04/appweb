@@ -28,9 +28,10 @@ h1{
     font-weight: bold;
 }
 .container2{
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-content: center;
     color: white;
     text-align: center;
+    
 }
