@@ -1,11 +1,6 @@
 body{
-    background-image:url("/img/Logo.png");
+    background-image:url("/src/img/imagepng.png");
     }
-h1{
-    text-align: center;
-    text-decoration: solid;
-    font-weight: bold;
-}
 .container {
     display: flex;
     flex-wrap: wrap;

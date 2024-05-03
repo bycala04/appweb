@@ -1,13 +1,6 @@
 body{
-    background-color: #4F9AD8;
-    margin: 0;
-    padding: 0;
-}
-h1{
-    text-align: center;
-    text-decoration: solid;
-    font-weight: bold;
-}
+    background-image:url("/img/Ale-Galan-milano-premier-padel-P1-2023.png");
+    }
 .container {
     display: flex;
     flex-wrap: wrap;
