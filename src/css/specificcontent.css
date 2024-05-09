@@ -7,15 +7,32 @@ body{
 }
 .container {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     background-color: #BF36FF;
     justify-content: space-between;
-    position: relative;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
 }
 .container1{
     display: flex;
     flex-wrap: wrap;
     background-color: #D9D9D9;
     justify-content: space-between;
-    margin-top: 50em;
+    margin-top: 30em;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+h1,h2,a,h3{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.product{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    float: left;
 }
